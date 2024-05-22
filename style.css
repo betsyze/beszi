@@ -1,0 +1,187 @@
+.broider {
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAA0pJREFUeF7tm1Fu4zAMBZP7H7qLYosilgONZkmryfbll5JIjR4p2knut9vt4/ban/sQ3hhv1d66+89gArQRaYA2wvxcKkA3AN1dk8if3TKtR3byN53/TKHkkOwU0GjfvV7VX4AOJxigUvIEjOzkTiuUFqym7BjQuB61cTTfrmf3Ox3fccvbEycgAQpPMqRoqyg6ELteFCoJkOLlcvPhHSlvA7paYVSCyE77ufxSogBsyldTloCRnfYToD/dh9IJVe1J+SJBAkjvN6377ktIlYgdl1KAWknA+AAN0AOBcsrTAmSvtknUNln/zfrwjT0FTPYAlX1agE5E+uyWJ2Bk//UKpZq1tQZtcGa7DhXSs8W7G2MV0IbBAdoMOUDfDWj1WdqWCFJIM7/TT42q/qf7XbnlaYMB+kAoQEkuZ3sUCg8uFikCpT6UGnmydzf6VQAUr62xB8ArfagNgGqqDdgC7BYI+Q/QgVBrlxOFnn/BbTPopFCbovZE7XhKMWuv+ic+h3hWvlOyNdTWMAvIjg9QSwzGB+i7A6UUpf1RSXi1PpTiUTXz648f32uu3PIBOidwYBigf/9a9PiJQuWldHnKl06E6sGTvz7axnnBxXSIveVpPL4cCdB5yquSsNLYU4qQgujEaX7Vbv3T+Ch0OBEqOe1AySH1rZQidv1uhVLGWaCntokWoA3RfLLT+lU73RFWANP9XPGdkg2wCozmBygRkvYfB0o1Ru6n/Xvxqn+ab2t8+QUzBWQvLbueHU8KrQooQOFEotDis/x2hVKK0YnalCN/r2bHPtQGHKAPxP7lWd6mSBQqJRqFNitU8sfhVz9pUcZY/7ptQgLNA+yGrPsAHYhRiSHAAfq/AaUUJEWQvVtxtB4plOKd2lfapgAViANUwFoZGqArlMSYlTf2tuZQiSA7hU81cpxv4yf/uoZ2b5i+U7IbDlBoewIUcoIUTnZKubdTKG2oau8GQutRBlQP+MBj5ZavArSv++ylEqDyhKzCqgdC/vQtL/erh5OiqkCq89uBVmsKzSe7PaHd6039vWNjTzW5pLDxTwgLPxjGF8zVE6f5ZI9CZeP+64BahdB4Ali1k/+t9h19aBUYzd8KjJwFKBGS9gCVwGj4H0lPgBxP3t4bAAAAAElFTkSuQmCC") 28 /  8px / 0 round; 
+}
+
+body {
+  background-color: white;
+}
+
+@font-face {
+  font-family: FT88;
+  src: ('/Users/betsy.ellison/Desktop/Code/Carded site/fonts/FT88/FT88-Gothique.ttf');
+}
+
+@font-face {
+  font-family: 'FT88 Serif' FT88;
+  src: ('/Users/betsy.ellison/Desktop/Code/Carded site/FT88-Serif.otf');
+}
+
+
+
+@font-face {
+  font-family: WorkSans-VariableFont_wght;
+  src: ('/Users/betsy.ellison/Desktop/Code/Carded site/WorkSans-VariableFont_wght.ttf');
+}
+
+
+.stamp {
+  width: 100px;
+  height: 100px;
+  border: 1px;
+  /* background-color: chartreuse; */
+  position: relative;
+  padding: 10px;
+}
+
+.stamp1 {
+  width: 100%;
+  height: 100%;
+  background-color: beige;
+  border-radius: 4px;
+  border: 1px dashed black;
+}
+
+.card {
+  height: fit-content;
+  width: calc(100% / 1.25);
+  min-width: 280px;
+  max-width: 400px;
+  border: 1px;
+  left: 0;
+  /* background-color: rgb(228, 169, 255); */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* margin: auto; */
+}
+
+.card1 {
+  position: relative;
+  /* display: block; */
+  height: calc(100% / 2);
+  width: auto;
+  border-radius: 4px;
+  border: 1px dashed black;
+  background-color: rgb(255, 255, 255);
+  left: 0;
+
+  display: inline-flex;
+  padding: 1.25rem 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.card2 {
+  position: inherit;
+  height: fit-content;
+  width: auto;
+  border-radius: 4px;
+  border: 1px dashed black;
+  background-color: rgb(255, 255, 255);
+  left: 0;
+
+  display: inline-flex;
+  padding: 1.25rem 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.cardCopy {
+  width: auto;
+  height: fit-content;
+  /* border-radius: 4px;
+  border: 1px dashed black; */
+  /* background-color: rgb(207, 234, 187); */
+
+  font-family: FT88;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.cardCopy2 {
+  width: auto;
+  height: fit-content;
+  /* background-color: rgb(255, 204, 198); */
+
+  font-family: 'Work Sans';
+  font-size: 0.75rem;
+
+  display: flex;
+  padding: 1rem 1rem 0rem 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  /* align-self: stretch; */
+
+  border-top: 1px dashed black;
+  border-right: 1px dashed black;
+  border-left: 1px dashed black;
+}
+.cardCopy3 {
+  font-size: 0.75rem;
+
+  font-family: 'FT88 Serif' FT88;
+
+  width: 100%;
+  height: fit-content;
+  /* border-radius: 4px;
+  border: 1px dashed black; */
+  /* background-color: rgb(187, 229, 238); */
+
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.smlGapCopy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  /* background-color: coral; */
+}
+
+.cardContainer {
+  /* position: absolute; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: fit-content;
+  min-width: 300px;
+  /* height: 70vh; */
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  top: 3vw;
+  padding: 5% 5% 5% 5%;
+  position: relative;
+  gap: 10px 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .cardContainer {
+    justify-content: flex-start;
+    background-color: white;
+    background-image: none;
+    
+  }
+
+  .cardCopy2 {
+    border: 1px dashed black;
+    padding: 1rem;
+  }
+
+  .cardCopy3 {
+    flex-direction: column;
+    justify-content: left;
+    /* border-bottom: 1px dashed black;
+    border-right: 1px dashed black;
+    border-left: 1px dashed black; */
+  }
+}
